@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b846716-556f-4808-9d27-c13adf8eacb9">
+  <producedTypes>
+    <objectType typeId="949cf4af-008d-4d07-9ea8-9672c66bf301" valueTypeId="d3af141d-f966-4bd6-b7db-842b7d70eac6"/>
+    <refType typeId="15757d71-ce61-4557-98b1-e87b9f52c1c4" valueTypeId="9921a098-365a-4e2b-8927-df3aba25b047"/>
+    <selectionType typeId="427ecb25-eaff-46d9-9d2e-44604a54b8df" valueTypeId="5dcb0151-200b-4810-84ee-4ef6fd0ac018"/>
+    <listType typeId="534ad385-c47b-4548-a8d4-672f1c7fd323" valueTypeId="48d06121-1064-4cd6-8008-9143660f28fa"/>
+    <managerType typeId="44f01de5-f5c7-41ca-8ded-c68d2bd06efd" valueTypeId="f18e8e7e-8e8e-4c69-a1aa-1a6b42e70a94"/>
+    <routePointRef typeId="0b27feff-e797-48a2-81ce-4db8173b1a5c" valueTypeId="b97a829d-9eb4-4fa2-a1cb-0ceef07f1754"/>
+  </producedTypes>
+  <name>ЗакупкаТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупка товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ЗакупкаТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаИсполнителя</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="f5589e43-9d05-4dfe-aff4-75243ea3c3df">
+    <name>ОплатаНаличными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата наличными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:BusinessProcess>

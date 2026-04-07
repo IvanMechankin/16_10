@@ -10,4 +10,10 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.БизнесПроцессы</picture>
   </picture>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Подразделения</content>
+  <content>InformationRegister.РегистрАдресации</content>
+  <content>Catalog.Должности</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>BusinessProcess.ЗакупкаТовара</content>
 </mdclass:Subsystem>
