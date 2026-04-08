@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425415e1-a553-42e3-b176-dec6ad645d33">
+  <producedTypes>
+    <objectType typeId="4a690223-7e3f-451b-8622-ef091ecefb52" valueTypeId="06f14193-4f15-4dca-88fd-a4479df8a071"/>
+    <managerType typeId="c2a4edc6-1c00-4164-8b18-1d74f7b5254d" valueTypeId="f1cd3780-adaa-4ebd-8ef9-53445a0cc5d8"/>
+  </producedTypes>
+  <name>СменитьПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сменить пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СменитьПользователя.Form.Форма</defaultForm>
+  <forms uuid="bed79a20-f9c6-4c3c-8cc5-0631cb66b3ea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
